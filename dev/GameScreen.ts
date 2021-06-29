@@ -1,6 +1,6 @@
 import { Ape } from "./Ape.js";
 import { Banana } from "./Banana.js";
-import { Obstacle } from "./Obstacle.js";
+import { Obstacle } from "./obstacle.js";
 import { ScreenBase } from "./ScreenBase.js";
 import { Game } from "./game.js";
 
