@@ -9,7 +9,7 @@ export class GameScreen extends ScreenBase {
         this.bananas = [];
         this.score = 0;
         this.game = game;
-        for (let i = 0; i < 15; i++) {
+        for (let i = 0; i < 10; i++) {
             this.obstacles.push(new Obstacle());
             if (i % 2 === 0) {
                 this.bananas.push(new Banana());
